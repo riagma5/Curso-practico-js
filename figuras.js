@@ -79,3 +79,18 @@ function calcularAreaCuadrado() {
     const area = areaCuadrado(value);
     alert(area);
 }
+
+// Código del RETO
+
+function calcularPerimetroTriangulo() {
+    const input1 = document.getElementById("inputLado1");
+    const input2 = document.getElementById("inputLado2");
+    const input3 = document.getElementById("base");
+
+    const value1 = input1.value1;
+    const value2 = input2.value2;
+    const value3 = input3.value3;
+
+    const perimetro = perometroTriangulo(value1, value2, value3);
+    alert(perimetro);
+}
